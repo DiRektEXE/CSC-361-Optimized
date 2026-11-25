@@ -9,4 +9,10 @@ Car::Car() : pNext(nullptr), pName(nullptr)
 {
 }
 
+// Copy Constructor
+Car::Car(const Car& tmp) 
+{
+	this->pName = tmp.pName;
+}
+
 // --- End of File ---

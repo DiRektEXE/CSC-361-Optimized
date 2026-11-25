@@ -10,7 +10,7 @@ class Car
 public:
 
 	Car(); // Default Constructor
-	
+	Car(const Car&);
 
 	// Do not add data
 	Car *pNext;
