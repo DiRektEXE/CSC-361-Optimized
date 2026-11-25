@@ -9,8 +9,8 @@ class Car
 {
 public:
 
-	Car(); // Default Constructor
-	Car(const Car&);
+	Car();				// Default Constructor
+	Car(const Car&);	// Copy Constructor
 
 	// Do not add data
 	Car *pNext;
