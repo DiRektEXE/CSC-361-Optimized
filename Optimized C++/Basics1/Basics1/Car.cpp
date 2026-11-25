@@ -4,8 +4,8 @@
 
 #include "Car.h"
 
-// Default Constructor
-Car::Car()
+// Default Constructor + Initializer List
+Car::Car() : pNext(nullptr), pName(nullptr)
 {
 }
 

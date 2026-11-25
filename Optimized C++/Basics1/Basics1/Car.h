@@ -10,6 +10,7 @@ class Car
 public:
 
 	Car(); // Default Constructor
+	
 
 	// Do not add data
 	Car *pNext;

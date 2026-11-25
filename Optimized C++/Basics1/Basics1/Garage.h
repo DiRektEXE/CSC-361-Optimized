@@ -12,7 +12,7 @@ class Garage
 public:
 
 	Garage();	// Default Constructor
-
+	
 
 	// do not add data
 	Car *poHead;
