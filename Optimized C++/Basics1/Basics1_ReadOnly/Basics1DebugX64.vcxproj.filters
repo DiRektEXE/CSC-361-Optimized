@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Test\0_CarGarage_Default.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\1_AddToFront.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\2_Remove.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\3_AddToEnd.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Do NOT Modify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics1\Car.cpp">
+      <Filter>Source Files\Refactor %28Do not add or delete files%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basics1\Garage.cpp">
+      <Filter>Source Files\Refactor %28Do not add or delete files%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\4_Print.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics1\Car.h">
+      <Filter>Source Files\Refactor %28Do not add or delete files%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics1\Garage.h">
+      <Filter>Source Files\Refactor %28Do not add or delete files%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basics1\_UnitTestConfiguration.h">
+      <Filter>Source Files\Unit Test Configuration %28Enable Tests here%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="..\Test\__DO NOT MODIFY__">
+      <Filter>_Test</Filter>
+    </None>
+    <None Include="__DO NOT MODIFY__">
+      <Filter>Source Files\Do NOT Modify</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{e00fd8f1-ca3d-498a-9b3a-cd7319f1b111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Test">
+      <UniqueIdentifier>{3b38bd06-8a17-4ca2-8ebb-f9ee4fc91500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{cb184cf6-7f78-4047-88cb-55dbfeed6a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Do NOT Modify">
+      <UniqueIdentifier>{c809398c-6d74-4c04-8054-942cdc82768f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Refactor %28Do not add or delete files%29">
+      <UniqueIdentifier>{ba10e224-fcb8-4c6c-afb2-823a2128cf32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit Test Configuration %28Enable Tests here%29">
+      <UniqueIdentifier>{7773193c-4751-4431-b3be-f3985c21cb19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
